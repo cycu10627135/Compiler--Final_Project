@@ -6,5 +6,5 @@ Your tasks are to :
     2. Read and run Mini-LISP program examples to understand the language behavior.  
     3. Write an interpreter for Mini-LISP, implement features of the language.  
 
-* How to run the standard interpreter?
+* How to run the standard interpreter?  
   `$ ./smli example.lsp`
