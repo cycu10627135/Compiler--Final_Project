@@ -25,14 +25,14 @@ STMT ::= EXP | DEF-STMT | PRINT-STMT
 PRINT-STMT ::= (print-num EXP) | (print-bool EXP)  
 EXP ::= bool-val | number | VARIABLE | NUM-OP | LOGICAL-OP | FUN-EXP | FUN-CALL | IF-EXP  
 NUM-OP ::= PLUS | MINUS | MULTIPLY | DIVIDE | MODULUS | GREATER | SMALLER | EQUAL  
-        PLUS ::= (+ EXP EXP+)  
-       MINUS ::= (- EXP EXP)  
-       MULTIPLY ::= (* EXP EXP+)  
-        DIVIDE ::= (/ EXP EXP)  
-        MODULUS ::= (mod EXP EXP)  
-        GREATER ::= (> EXP EXP)  
-       SMALLER ::= (< EXP EXP)  
-       EQUAL ::= (= EXP EXP+)  
+	PLUS ::= (+ EXP EXP+)  
+	MINUS ::= (- EXP EXP)  
+	MULTIPLY ::= (* EXP EXP+)  
+	DIVIDE ::= (/ EXP EXP)  
+	MODULUS ::= (mod EXP EXP)  
+	GREATER ::= (> EXP EXP)  
+	SMALLER ::= (< EXP EXP)  
+	EQUAL ::= (= EXP EXP+)  
 LOGICAL-OP ::= AND-OP | OR-OP | NOT-OP  
         AND-OP ::= (and EXP EXP+)  
         OR-OP ::= (or EXP EXP+)  
