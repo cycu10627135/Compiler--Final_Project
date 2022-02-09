@@ -7,6 +7,7 @@ Your tasks are to :
     3. Write an interpreter for Mini-LISP, implement features of the language.  
 
 按照給予的Compiler Final Project.pdf的要求和MiniLisp.pdf的文法完成一個簡易的Mini-LISP interpreter。  
+讀入Mini-LISP的指定之後判斷文法是否正確，如果正確則執行指令的內容。包含算數運算、邏輯運算、輸出算術值或邏輯值、if function判斷、變數定義、function定義與呼叫
 須完成以下可選項目:  
 | **Feature** | **Feature** |
 |-------|:-----:|
